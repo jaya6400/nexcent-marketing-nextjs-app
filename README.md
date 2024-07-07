@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Nextcent-Next.js](https://nextjs.org/) marketing website project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Screenshot (90)](https://github.com/jaya6400/nexcent-marketing-nextjs-app/assets/66017717/df0ee143-9d33-4409-b868-d875d5b96f4f)
 
 ## Getting Started
 
