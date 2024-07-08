@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Caraousel from "@/components/Caraousel";
 import ClientSection from "@/components/ClientSection";
 import Features from "@/components/Features";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import DemoSection from "@/components/DemoSection";
 import Footer from "@/components/Footer";
 //<link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
@@ -33,6 +34,7 @@ export default function RootLayout({
         <Caraousel/>
         <ClientSection/> 
         <Features/>
+        <TestimonialsSection/>
         <DemoSection/>
         <Footer/>
         {children}
