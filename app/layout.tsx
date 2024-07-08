@@ -4,7 +4,9 @@ import Navbar from "@/components/Navbar";
 import Caraousel from "@/components/Caraousel";
 import ClientSection from "@/components/ClientSection";
 import Features from "@/components/Features";
+import StatisticsCountUp from "@/components/StatisticsCountUp";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import BlogSection from "@/components/BlogSection";
 import DemoSection from "@/components/DemoSection";
 import Footer from "@/components/Footer";
 //<link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
@@ -34,7 +36,9 @@ export default function RootLayout({
         <Caraousel/>
         <ClientSection/> 
         <Features/>
+        <StatisticsCountUp/>
         <TestimonialsSection/>
+        <BlogSection/>
         <DemoSection/>
         <Footer/>
         {children}
@@ -44,23 +48,4 @@ export default function RootLayout({
   );
 }
 
-// export default function RootLayout({ children }: NewType) {
-//   return (
-//     <>
-//       <html lang="en" suppressHydrationWarning>
-//         <head />
-//         <body>
-//           <ThemeProvider
-//             attribute="class"
-//             defaultTheme="system"
-//             enableSystem
-//             disableTransitionOnChange
-//           >
-//             {children}
-//           </ThemeProvider>
-//         </body>
-//       </html>
-//     </>
-//   )
-// }
 
