@@ -1,5 +1,7 @@
-import Image from "next/image";
-
+//import '../styles/globals.css'
+import 'tailwindcss/tailwind.css';
+//import Image from "next/image";
+//<link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
 export default function Home() {
   return (
     <>
