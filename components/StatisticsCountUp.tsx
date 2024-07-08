@@ -53,15 +53,21 @@ function StatsCard(props: StatsCardProps) {
 
 export default function BasicStatistics() {
   return (
-    <Box maxW="7xl" mx={'auto'} pt={5} px={{ base: 2, sm: 12, md: 17 }}>
-      <chakra.h1 textAlign={'center'} fontSize={'4xl'} color={'green'} py={10} fontWeight={'bold'}>
-        Helping a local business reinvent itself
+    <Box maxW="7xl" mx={'auto'} pt={5} px={{ base: 1, sm: 6, md: 1 }}>
+      <chakra.h1 textAlign={'left'} fontSize={'4xl'} color={'black'} py={0} fontWeight={'bold'}>
+        Helping a local 
       </chakra.h1>
-      <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
+      <chakra.h1 textAlign={'left'} fontSize={'4xl'} color={'green'} py={1} fontWeight={'bold'}>
+      business reinvent itself
+      </chakra.h1>
+      <chakra.h6 textAlign={'left'} fontSize={'1xl'} color={'black'} py={2} fontWeight={'medium'}>
+        We reached here with our hardwork and dedication
+      </chakra.h6>
+      <SimpleGrid columns={{ base: 1, md: 2}} spacing={{ base: 5, lg: 8 }}>
         <StatsCard title={'Members'} stat={'2,245,341'} icon={<BsPerson size={'3em'} />} />
         <StatsCard title={'Clubs'} stat={'46,328'} icon={<FiServer size={'3em'} />} />
         <StatsCard title={'Event Bookings'} stat={'828,867'} icon={<GoLocation size={'3em'} />} />
-        <StatsCard title={'Payments'} stat={'1,926,436'} icon={<GoLocation size={'3em'} />}/>
+        <StatsCard title={'Payments'} stat={'1,926,436'} icon={<img width="50" height="50" src="https://img.icons8.com/ios/50/card-security.png" alt="card-security"/>}/> 
       </SimpleGrid>
     </Box>
   )
