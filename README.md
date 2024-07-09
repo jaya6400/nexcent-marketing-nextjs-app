@@ -1,6 +1,8 @@
 ## Created a responsive Nextcent marketing website project
 
-[`Website Video Link`](https://drive.google.com/file/d/1NOZ5Z8YnuoWj6gbc2qfzYL-qPkudj-kz/view)
+***Deployed on Vercel*** - [`Website Link`](https://nexcent-marketing-nextjs-app-dev-jaya.vercel.app/)
+
+**Presentation** - [`Presentation Link`](https://drive.google.com/file/d/1NOZ5Z8YnuoWj6gbc2qfzYL-qPkudj-kz/view)
 
 ### Tech Stack used
 ***NextJs***, ***TypeScript***, ***Tailwind CSS***, ***Chakra UI***
