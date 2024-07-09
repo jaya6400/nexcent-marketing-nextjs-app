@@ -14,7 +14,7 @@
 
 ![Screenshot (96)](https://github.com/jaya6400/nexcent-marketing-nextjs-app/assets/66017717/63e44d1e-af6e-4082-b093-7e31e9f8976e)
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
