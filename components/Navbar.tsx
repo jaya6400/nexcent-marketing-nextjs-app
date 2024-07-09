@@ -22,7 +22,8 @@ import {
   PopoverTrigger,
   PopoverContent,
   Center,
-} from '@chakra-ui/react'
+  Collapse,
+} from '@chakra-ui/react';
 
 import {  
     HamburgerIcon,
