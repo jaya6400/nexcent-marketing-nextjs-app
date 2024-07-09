@@ -9,6 +9,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import BlogSection from "@/components/BlogSection";
 import DemoSection from "@/components/DemoSection";
 import Footer from "@/components/Footer";
+
 //<link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
 //import type { Metadata } from "next";
 import { Inter } from "next/font/google";
