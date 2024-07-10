@@ -53,7 +53,7 @@ function StatsCard(props: StatsCardProps) {
 
 export default function BasicStatistics() {
   return (
-    <Box maxW="7xl" mx={'auto'} pt={5} px={{ base: 0, sm: 1, md: 2 }}>
+    <Box maxW="7xl" mx={'auto'} pt={5} px={{ base: 2, sm: 12, md: 17}}>
       <chakra.h1 textAlign={'left'} fontSize={'4xl'} color={'black'} py={0} fontWeight={'bold'}>
         Helping a local 
       </chakra.h1>
@@ -63,7 +63,7 @@ export default function BasicStatistics() {
       <chakra.h6 textAlign={'left'} fontSize={'1xl'} color={'black'} py={3} fontWeight={'medium'}>
         We reached here with our hardwork and dedication
       </chakra.h6>
-      <SimpleGrid columns={{ base: 4, md: 2}} spacing={{ base: 1, lg: 8 }}>
+      <SimpleGrid columns={{ base: 1, md: 2}} spacing={{ base: 5, lg: 8 }}>
         <StatsCard title={'Members'} stat={'2,245,341'} icon={<BsPerson size={'3em'} />} />
         <StatsCard title={'Clubs'} stat={'46,328'} icon={<FiServer size={'3em'} />} />
         <StatsCard title={'Event Bookings'} stat={'828,867'} icon={<GoLocation size={'3em'} />} />
